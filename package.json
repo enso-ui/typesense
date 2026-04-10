@@ -1,6 +1,6 @@
 {
   "name": "@enso-ui/typesense",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Typesense package",
   "main": "src/bulma/pages/integrations/settings/Index.vue",
   "repository": {
