@@ -1,4 +1,4 @@
-const SettingsIndex = () => import('../../../pages/integrations/settings/Index');
+const SettingsIndex = () => import('../../../pages/integrations/settings/Index.vue');
 
 export default {
     name: 'integrations.typesense.settings.index',

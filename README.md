@@ -1,2 +1,3 @@
-###  enso-ui - typesense
-Coming soon
+# typesense
+
+See LICENSE.
