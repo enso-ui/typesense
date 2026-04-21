@@ -1,11 +1,51 @@
 # Typesense
+[![License](https://img.shields.io/badge/license-Proprietary-4b5563.svg)](https://github.com/enso-ui/typesense/blob/main/LICENSE)
+[![Stable](https://img.shields.io/badge/stable-2.3.2-2563eb.svg)](https://www.npmjs.com/package/@enso-ui/typesense)
+[![Vue](https://img.shields.io/badge/vue-3.x-42b883.svg)](https://vuejs.org/)
+[![JavaScript](https://img.shields.io/badge/javascript-ES2020-f7df1e.svg)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![SCSS](https://img.shields.io/badge/scss-supported-c6538c.svg)](https://sass-lang.com/)
+[![npm](https://img.shields.io/badge/npm-package-cb3837.svg)](https://github.com/enso-ui/typesense)
+[![Issues](https://img.shields.io/badge/issues-GitLab-lightgrey.svg)](https://github.com/enso-ui/typesense/issues)
+[![Merge Requests](https://img.shields.io/badge/merge_requests-GitLab-lightgrey.svg)](https://github.com/enso-ui/typesense/pulls)
+## Description
+Typesense integration settings page for Enso UI.
+## Installation
+Install the package:
 
-Typesense integration package.
-
+```bash
+yarn add @enso-ui/typesense
+```
+## Features
+- ships route-aware page modules consumed by the Enso application shell
+- includes index/list pages backed by Enso tables, forms, or integration settings
 ## Usage
+```vue
+<script setup>
+import Index from '@enso-ui/typesense/src/bulma/pages/integrations/settings/Index.vue';
+</script>
+```
+## API
+### Route pages
 
-This package is intended for use inside the Enso ecosystem.
+The practical public surface is page-oriented and centered on the route modules shipped by the package.
 
+Pages:
+- `src/bulma/pages/integrations/settings/Index.vue`
+## Routes
+
+Typesense ships the following named route entries:
+
+- `integrations.typesense.settings.index`
+  Path fragment: `settings`
+  Route file: `src/bulma/routes/integrations/typesense/settings.js`
+## Companion Backend Package
+
+- [`laravel-enso/typesense`](https://docs.laravel-enso.com/backend/typesense.html) [↗](https://github.com/laravel-enso/typesense)
+
+## Depends On
+- No additional Enso UI dependencies.
+## Contributions
+are welcome. Pull requests are great, but issues are good too.
+Thank you to all the people who already contributed to Enso!
 ## License
-
-Proprietary. See [LICENSE](LICENSE).
+Proprietary. See [LICENSE](https://github.com/enso-ui/typesense/blob/main/LICENSE).
