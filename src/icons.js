@@ -1,5 +1,5 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faSearch, faPuzzlePiece, faUserCog} from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faPuzzlePiece } from '@fortawesome/free-solid-svg-icons';
 import { faUserCog as fadUserCog } from '@fortawesome/pro-duotone-svg-icons';
 
-library.add(faSearch, faPuzzlePiece, faUserCog, fadUserCog);
+library.add(faSearch, faPuzzlePiece, fadUserCog);
